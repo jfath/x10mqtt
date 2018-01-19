@@ -18,7 +18,7 @@ To use with Home Assistant, configure mqtt lights:
   
 light:  
   \- platform: mqtt  
-    name: x10_inside
+    name: x10_inside  
     #Unit ID of 00 means all lights on a house code  
     command_topic: "home/lights/x10mqtt/D00"  
     command\_on\_template: "on"  
