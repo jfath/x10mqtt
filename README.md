@@ -15,21 +15,22 @@ Edit the initial variable block of x10mqtt.py to match your environment
   
  **Usage:**  
 To use with Home Assistant, configure mqtt lights:  
+  
 light:  
-  - platform: mqtt  
+  \- platform: mqtt  
     name: x10_inside
     #Unit ID of 00 means all lights on a house code  
     command_topic: "home/lights/x10mqtt/D00"  
     command\_on\_template: "on"  
     command\_off\_template: "off"  
-  - platform: mqtt  
+  \- platform: mqtt  
     name: x10_lampfront  
     command_topic: "home/lights/x10mqtt/D01"  
     command\_on\_template: "on"  
     command\_off\_template: "off"  
   
 
-**Notes**  
+**Notes:**  
 only the ACT TI103 x10 bridge is currently supported  
 only on and off messages are currently implemented  
   
