@@ -2,6 +2,7 @@
 x10mqtt.py is used to connect to an MQTT broker and control x10 lights based on messages published to a subscribed set of topics.  
   
 Jerry Fath jerryfath at gmail dot com  
+License: MIT  
   
  **Features**  
 Works with Home Assistant (https://home-assistant.io/) to control x10 devices using MQTT  
